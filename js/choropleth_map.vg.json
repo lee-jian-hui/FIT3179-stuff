@@ -15,11 +15,11 @@
         "data": {
           "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-stuff/master/country_and_reactor_freq.csv"
         },
-        "key": "country",
+        "key": "Country",
         "fields": ["nuclear_reactor_freq"]
       }
     },
-    {"calculate": "datum.nuclear_reactor_freq + 1", "as": "Nuclear Reactor Frequency"}
+    {"calculate": "datum.nuclear_reactor_freq ", "as": "Nuclear Reactor Frequency"}
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
@@ -29,7 +29,7 @@
       "scale": { "type": "linear"}    
     },
     "tooltip": [
-      {"field": "properties.NAME", "type": "nominal", "title": "country"},
+      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
       {"field": "Nuclear Reactor Frequency", "type": "quantitative"}
     ]
   }
