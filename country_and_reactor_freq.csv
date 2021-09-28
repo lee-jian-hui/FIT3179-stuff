@@ -1,35 +1,35 @@
-index,nuclear_reactor_freq,country
-0,0,13,SWEDEN
-1,1,10,SPAIN
-2,2,3,BRAZIL
-3,3,134,UNITED STATES OF AMERICA
-4,5,3,ARGENTINA
-5,6,36,GERMANY
-6,7,48,RUSSIAN FEDERATION
-7,10,8,BULGARIA
-8,11,71,FRANCE
-9,13,45,UNITED KINGDOM
-10,14,6,SWITZERLAND
-11,19,1,KAZAKHSTAN
-12,20,9,SLOVAK REPUBLIC
-13,22,2,NETHERLANDS
-14,28,25,CANADA
-15,32,1,"IRAN, ISLAMIC REPUBLIC OF"
-16,36,3,ITALY
-17,39,42,CHINA
-18,40,2,ROMANIA
-19,43,5,PAKISTAN
-20,44,21,UKRAINE
-21,45,8,"TAIWAN, CHINA"
-22,63,8,BELGIUM
-23,69,6,CZECH REPUBLIC
-24,83,62,JAPAN
-25,116,2,LITHUANIA
-26,122,27,INDIA
-27,130,2,SOUTH AFRICA
-28,132,26,"KOREA, REPUBLIC OF"
-29,134,1,SLOVENIA
-30,140,2,MEXICO
-31,149,5,FINLAND
-32,157,2,ARMENIA
-33,186,4,HUNGARY
+,index,nuclear_reactor_freq,country
+0,0,13,Sweden
+1,1,10,Spain
+2,2,3,Brazil
+3,3,134,United States Of America
+4,5,3,Argentina
+5,6,36,Germany
+6,7,48,Russian Federation
+7,10,8,Bulgaria
+8,11,71,France
+9,13,45,United Kingdom
+10,14,6,Switzerland
+11,19,1,Kazakhstan
+12,20,9,Slovak Republic
+13,22,2,Netherlands
+14,28,25,Canada
+15,32,1,"Iran, Islamic Republic Of"
+17,36,3,Italy
+18,39,42,China
+19,40,2,Romania
+20,43,5,Pakistan
+21,44,21,Ukraine
+22,45,8,"Taiwan, China"
+25,63,8,Belgium
+26,69,6,Czech Republic
+27,83,62,Japan
+33,116,2,Lithuania
+34,122,27,India
+35,130,2,South Africa
+36,132,26,"Korea, Republic Of"
+37,134,1,Slovenia
+38,140,2,Mexico
+40,149,5,Finland
+42,157,2,Armenia
+43,186,4,Hungary

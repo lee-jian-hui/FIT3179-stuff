@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Nuclear Reactor Count by Country (2021)",
+  "title": "COVID-19 Active Cases (10 Oct 2020)",
   "width": 800,
   "height": 600,
   "projection": {"type": "equirectangular"},
@@ -16,10 +16,10 @@
           "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-stuff/master/country_and_reactor_freq.csv"
         },
         "key": "country",
-        "fields": ["nuclear_reactor_freq"]
+        "fields": ["nuclear_reactor_freq", "country"]
       }
     },
-    {"calculate": "datum.nuclear_reactor_freq + 1", "as": "Nuclear Reactor Frequency"}
+    {"calculate": "datum.nuclear_reactor_freq + 0.1", "as": "Nuclear Reactor Frequency"}  
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
